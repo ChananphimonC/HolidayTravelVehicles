@@ -9,6 +9,26 @@ public class Person {
         this.phone = phone;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     public void displayInfo() {
         System.out.println("Name: " + name);
         System.out.println("Address: " + address);
