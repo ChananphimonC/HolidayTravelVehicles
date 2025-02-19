@@ -2,7 +2,7 @@ name: Java CI
 on:
   push:
     branches:
-      - main
+      - Chananphimon
 jobs:
   build:
     runs-on: ubuntu-latest
