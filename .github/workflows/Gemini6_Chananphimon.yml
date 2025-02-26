@@ -18,7 +18,7 @@ jobs:
         distribution: 'temurin'
     - name: Compile Java
       run: |
-        ls  # First list contents to see directory structure
+        ls  
         javac -d . *.java
     - name: Run Main Class
       run: |
